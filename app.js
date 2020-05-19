@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
 
 app.get('/contact', (req, res) => {
   res.render('contact', {
-    title: "Contact me. I won't bite.",
+    title: "Contact me. I am bored.",
     submitted: false,
   });
 });
