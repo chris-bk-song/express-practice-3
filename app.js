@@ -31,7 +31,7 @@ app.post('/contact', (req, res) => {
   // print out thank you message
   console.log(req.body);
   res.render('contact', {
-    title: 'Thank You!!!',
+    title: 'THANKS!',
     submitted: true,
   });
 });
